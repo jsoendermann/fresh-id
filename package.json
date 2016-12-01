@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "node_modules/jasmine-es6/bin/jasmine.js"
+    "test": "node_modules/jasmine-es6/bin/jasmine.js",
+    "prepublish": "npm run build"
   },
   "engines": {
     "node": ">=4.1"
