@@ -1,10 +1,20 @@
 {
   "name": "fresh-id",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "babel src -d lib",
     "test": "node_modules/jasmine-es6/bin/jasmine.js",
     "prepublish": "npm run build"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jan Soendermann",
+    "email": "jan.soendermann+npm@gmail.com"
+  },
+  "homepage": "https://github.com/jsoendermann/fresh-id",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/jsoendermann/fresh-id.git"
   },
   "engines": {
     "node": ">=4.1"
