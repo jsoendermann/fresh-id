@@ -2,3 +2,4 @@ src
 node_modules
 .DS_Store
 spec
+npm-debug.log
