@@ -1,6 +1,6 @@
 {
   "name": "fresh-id",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "scripts": {
     "build": "babel src -d lib",
     "test": "node_modules/jasmine-es6/bin/jasmine.js",
@@ -20,6 +20,7 @@
     "node": ">=4.1"
   },
   "main": "./lib/freshId.js",
+  "typings": "./freshId.d.ts",
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-eslint": "^7.0.0",
