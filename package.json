@@ -1,6 +1,6 @@
 {
   "name": "fresh-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "babel src -d lib",
     "test": "node_modules/jasmine-es6/bin/jasmine.js",
